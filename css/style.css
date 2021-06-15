@@ -1,37 +1,4 @@
-@font-face {
-    font-family: 'New York Extra Large', sans-serif;
-    src: url(../fonts/NewYorkExtraLargeBold.woff2);
-    font-weight: bold;
-    font-style: normal;
-   }
-
-@font-face {
-    font-family: 'SF UI Display', sans-serif;
-    src: url(../fonts/SFUIText-Bold.woff2);
-    font-weight: bold;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'SF UI Display', sans-serif;
-    src: url(../fonts/SFUIText-Light.woff2);
-    font-weight: bold;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'SF UI Display', sans-serif;
-    src: url(../fonts/SFUIText-Regular.woff2);
-    font-weight: 300;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'SF UI Display', sans-serif;
-    src: url(../fonts/SFUIText-Semibold.woff2);
-    font-weight: 600;
-    font-style: normal;
-}
+@import url(fonts.css);
 
 * {
     box-sizing: border-box;
@@ -57,7 +24,7 @@ img {
 }
 
 body {
-    font-family: 'SF UI Display', sans-serif;
+    font-family: 'SFUIText-Regular', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -86,7 +53,7 @@ body {
 }
 
 .button {
-    font-family: 'SF UI Display', sans-serif;
+    font-family: 'SFUIText-Semibold', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
@@ -116,7 +83,7 @@ body {
 }
 
 .title {
-    font-family: 'New York Extra Large', sans-serif;
+    font-family: 'NewYorkExtraLargeBold', sans-serif;
     font-weight: bold;
     font-size: 48px;
     line-height: 60px;
@@ -136,8 +103,7 @@ body {
 }
 
 .menu__link {
-    font-family: 'SF UI Display' sans-serif;
-    font-style: normal;
+    font-family: 'SFUIText-Regular' sans-serif;
     font-weight: normal;
     font-size: 14px;
     line-height: 40px;
@@ -167,7 +133,7 @@ body {
 
 .user__btn {
     margin-top: 24px;
-    font-family: 'SF UI Display', sans-serif;
+    font-family: 'SFUIText-Bold', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
@@ -196,7 +162,6 @@ body {
 }
 
 .description__title {
-    font-family: 'New York Extra Large' sans-serif;
     font-weight: bold;
     font-size: 112px;
     line-height: 112px;
@@ -304,7 +269,7 @@ body {
     position: absolute;
     width: 48px;
     height: 55px;
-    background-image: url(../icons/archmove-check.png);
+    background-image: url(../assets/icons/archmove-check.png);
     top: 0;
     left: 0;
 }
@@ -314,7 +279,7 @@ body {
     position: absolute;
     width: 39px;
     height: 48px;
-    background-image: url(../icons/archmove-cost.png);
+    background-image: url(../assets/icons/archmove-cost.png);
     top: 0;
     left: 0;
 }
@@ -324,7 +289,7 @@ body {
     position: absolute;
     width: 40px;
     height: 53px;
-    background-image: url(../icons/archmove-team.png);
+    background-image: url(../assets/icons/archmove-team.png);
     top: 0;
     left: 0;
 }
@@ -372,7 +337,7 @@ body {
     position: absolute;
     width: 57px;
     height: 41px;
-    background-image: url(../icons/quotes.svg);
+    background-image: url(../assets/icons/quotes.svg);
     top: 0;
     left: 0;
 }
@@ -434,7 +399,7 @@ body {
 }
 
 .footer__item-link {
-    font-family: 'SF UI Display', sans-serif;
+    font-family: 'SFUIText-Bold', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 12px;
