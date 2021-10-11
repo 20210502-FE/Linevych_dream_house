@@ -1,0 +1,415 @@
+@import url(fonts.css);
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html, body { 
+    height: 100%;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+body {
+    font-family: 'SFUIText-Regular', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #000000;
+}
+
+.container {
+    max-width: 1130px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.header__container {
+    max-width: 1460px;
+    padding: 0 10px;
+    margin: 0 auto;
+    padding: 34px 0;
+    align-items: center;
+}
+
+.flex {
+    display: flex;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.button {
+    font-family: 'SFUIText-Semibold', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 40px;
+    color: #fff;
+    background-color: #FD665E;
+    border-radius: 4px;
+    padding: 20px 32px;
+    transition: all .5s;
+}
+
+.button:hover {
+    background-color: #757575;
+}
+
+.button_capitalize {
+    text-transform: capitalize;
+}    
+
+
+.button_uppercase {
+    text-transform: uppercase;
+}
+
+.header__logo {
+    padding: 0 37px 0 50px;
+}
+
+.title {
+    font-family: 'NewYorkExtraLargeBold', sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 60px;
+}
+
+.logo {
+    max-width: 60px;
+}
+
+.menu {
+    margin-right: auto;
+}
+
+.menu__item {
+    padding: 0 24px;
+}
+
+.menu__link {
+    font-family: 'SFUIText-Regular' sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 40px;
+    border-bottom: 1px solid inherit;
+    color: #585858;
+    transition: all .3s ease-in;
+}
+
+.menu__link:hover {
+    color: #D32F2F;
+    border-bottom: 1px solid #D32F2F;
+}
+
+.nav {
+    padding-right: 51px;
+}
+
+.nav__search {
+    align-self: center;
+}
+
+.nav__search-img {
+    width: 14px;
+    height: 14px;
+}
+
+.nav__btn {
+    font-family: 'SFUIText-Bold', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 40px;
+    background-color: inherit;
+    border: none;
+    border-radius: 4px;
+    width: 101px;
+    height: 48px;
+    transition: all .5s;
+}
+
+.nav__btn:hover {
+    color: #fff;
+    background-color: #FD665E;
+    border-radius: 4px;
+}
+
+.nav__btn_sing-in {
+   margin-right: 16px;
+   margin-left: 24px;
+}
+
+.description {
+    padding: 48px 0;
+}
+
+.description__title {
+    font-weight: bold;
+    font-size: 112px;
+    line-height: 112px;
+    max-width: 870px;
+    text-transform: capitalize;
+    margin-bottom: 47px;
+}
+
+.description__title_red {
+    color: #FD665E;
+}
+
+.description__items {
+    max-width: 290px;
+}
+
+.description__text {
+
+    margin-bottom: 48px;
+}
+
+.description__img {
+    max-width: 765px;
+}
+
+.rooms {
+    padding-top: 64px;
+}
+
+.rooms__container {
+    max-width: 1170px;
+    padding: 0 10px 64px;
+    margin: 0 auto;
+}
+
+.rooms__title {
+    max-width: 535px;
+    margin: 0 auto 40px;
+}
+
+.slider__item {
+    flex-basis: 33.33%;
+    max-width: 33.33%;
+    padding: 0 20px;
+    max-height: 450px;
+}
+
+.slider__item-img {
+    transform: scale(0.9);
+    transition: all 1s;
+}
+
+.slider__item-img:hover {
+    transform: scale(1.1);    
+}
+
+.slider__rooms {
+    position: relative;
+}
+
+.slick-arrow {
+    position: absolute;
+    border: none;
+    width: 48px;
+    height: 48px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.slick-prev {
+    padding: 14px;
+    background-color: inherit;
+    top: -90px;
+    right: 90px;
+}
+.slick-next {
+    padding: 14px;
+    background-color: rgba(0, 0, 0, 0.03);
+    border-radius: 4px;
+    top: -90px;
+    right: 20px;
+}
+
+.archmove {
+    padding: 64px 0;
+}
+
+.archmove__title{
+    max-width: 459px;
+    margin-bottom: 40px;
+}
+
+.archmove__img {
+    flex-basis: 50%;
+    max-width: 535px;
+}
+
+.archmove__items {
+    padding-top: 24px;
+}
+
+.archmove__item {
+    padding-left: 86px;
+    margin-bottom: 48px;
+    position: relative;
+}
+
+.archmove__item_check::before {
+    content: '';
+    position: absolute;
+    width: 48px;
+    height: 55px;
+    background-image: url(../assets/icons/archmove-check.png);
+    top: 0;
+    left: 0;
+}
+
+.archmove__item-cost::before {
+    content: '';
+    position: absolute;
+    width: 39px;
+    height: 48px;
+    background-image: url(../assets/icons/archmove-cost.png);
+    top: 0;
+    left: 0;
+}
+
+.archmove__item-team::before {
+    content: '';
+    position: absolute;
+    width: 40px;
+    height: 53px;
+    background-image: url(../assets/icons/archmove-team.png);
+    top: 0;
+    left: 0;
+}
+
+.archmove__item-title {
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.archmove__item-text {
+    max-width: 375px;
+}
+
+.archmove__button {
+    margin-left: 86px;
+}
+
+.reviews {
+    padding: 64px 0;
+    background: linear-gradient(180deg, #F9F9F9 100%, rgba(249, 249, 249, 0) 100%);
+}
+
+.reviews__title {
+    max-width: 386px;
+    margin-bottom: 40px;
+}
+
+.reviews__slider {
+    max-width: 765px;
+    margin-left: auto;
+    
+}
+
+.reviews__slider-text {
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 52px;
+    margin-bottom: 59px;
+    padding-left: 110px;
+    position: relative;
+}
+
+.reviews__slider-text::before {
+    content: '';
+    position: absolute;
+    width: 57px;
+    height: 41px;
+    background-image: url(../assets/icons/quotes.svg);
+    top: 0;
+    left: 0;
+}
+
+.reviews__slider-author {
+    padding-left: 110px;
+}
+
+.slider-author_bold {
+    font-weight: bold;
+}
+
+.reviews__slick-prev {
+    top: 310px;
+}
+
+.reviews__slick-next {
+    top: 310px;
+}
+
+.realize {
+    padding: 88px 0 64px;
+    background: linear-gradient(180deg, #F9F9F9 22.12%, rgba(249, 249, 249, 0) 100%);
+}
+
+.realize__img {
+    flex-basis: 50%;
+    max-width: 497px;
+}
+
+.realize__content {
+    padding-top: 211px;
+    max-width: 521px;
+}
+
+.realize__title {
+    margin-bottom: 64px;
+}
+
+.partners {
+    padding-bottom: 64px;
+}
+
+.partners__title {
+    margin-bottom: 16px;
+}
+
+.partners__content {
+    align-items: center;
+}
+
+.footer {
+    border-top: 1px solid #F0F0F0;
+    padding: 79px 0;
+}
+
+.footer__item-link {
+    font-family: 'SFUIText-Bold', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 40px;
+    text-align: center;
+    color: #585858;
+    padding: 4px 24px;
+    transition: all .5s;
+}
+
+.footer__item-link:hover {
+    color: #D32F2F;
+}

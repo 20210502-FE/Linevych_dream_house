@@ -1,0 +1,34 @@
+@font-face {
+    font-family: "NewYorkExtraLargeBold"; 
+    src: url(../assets/fonts/NewYorkExtraLargeBold.woff2) format("woff2"); 
+    font-style: normal; 
+    font-weight: normal; 
+} 
+
+@font-face {
+    font-family: 'SFUIText-Bold';
+    src: url(../assets/fonts/SFUIText-Bold.woff2) format("woff2");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SFUIText-Light';
+    src: url(../assets/fonts/SFUIText-Light.woff2) format("woff2");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SFUIText-Regular';
+    src: url(../assets/fonts/SFUIText-Regular.woff2) format("woff2");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SFUIText-Semibold', sans-serif;
+    src: url(../assets/fonts/SFUIText-Semibold.woff2);
+    font-weight: 600;
+    font-style: normal;
+}
